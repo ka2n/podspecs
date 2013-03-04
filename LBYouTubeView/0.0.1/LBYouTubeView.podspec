@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.source_files = 'LBYouTubeView/**/*.{h,m}'
   s.requires_arc = true
   s.preserve_paths = ['Sample']
+  s.frameworks = ['MediaPlayer.framework']
 end
