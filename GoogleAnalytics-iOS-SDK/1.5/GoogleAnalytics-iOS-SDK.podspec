@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source       = { :http => "http://dl.google.com/gaformobileapps/GoogleAnalyticsiOS_1.5.1.tar.gz", :flatten => true}
   s.platform     = :ios
 
-  s.source_files = 'Library/*.h'
+  s.source_files = 'Library/*.h', 'Library/libGoogleAnalytics.a'
   s.preserve_paths = 'Library/libGoogleAnalytics.a'
 
   s.framework = 'CFNetwork'
